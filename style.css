@@ -616,7 +616,7 @@ button {
 /* ===== Events ===== */
 .event-timeline {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
 }
 
@@ -629,7 +629,7 @@ button {
   transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
-.event-card:hover {
+.event-card:hover {/
   transform: translateY(-4px);
   box-shadow: var(--shadow);
 }
