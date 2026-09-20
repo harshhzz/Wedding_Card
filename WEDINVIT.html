@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Invitation V2</title>
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-card">
+      <p class="loader-kicker">Wedding Invitation</p>
+      <h1>You're Invited</h1>
+      <div class="loader-line"></div>
+    </div>
+  </div>
+
+  <!-- Floating decor -->
+  <div class="petals" aria-hidden="true"></div>
+  <div class="sparkles" aria-hidden="true"></div>
+
+  <!-- Floating music button -->
+  <button id="musicToggle" class="floating-button" type="button" aria-label="Toggle music">
+    <i class="fa-solid fa-music"></i>
+  </button>
+
+  <!-- Hero -->
+  <header id="hero" class="section hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-inner" data-aos="fade-up">
+      <p class="eyebrow">Together with our families</p>
+      <h1>Harshita <span>&</span> Suraj</h1>
+      <p class="hero-subtitle">are getting married</p>
+      <p class="hero-date">21 November 2026</p>
+
+      <div class="hero-actions">
+        <a href="#story" class="btn btn-primary">जय श्री गणेश</a>
+        <a href="#venue" class="btn btn-ghost">View venue</a>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <span></span>
+        <small>Scroll</small>
+      </div>
+    </div>
+  </header>
+
+  <!-- Couple -->
+  <section id="couple" class="section section-soft">
+    <div class="container">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="section-kicker">The Couple</p>
+        <h2>Two hearts, one beautiful journey</h2>
+      </div>
+
+      <div class="couple-grid">
+        <article class="portrait-card" data-aos="fade-right">
+          <div class="portrait-frame portrait-frame-left">
+            <img src="assets/bride.jpg" alt="Bride portrait" />
+          </div>
+          <h3>Harshita</h3>
+          <p class="portrait-title">The Bride</p>
+        </article>
+
+        <div class="couple-heart" aria-hidden="true">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+
+        <article class="portrait-card" data-aos="fade-left">
+          <div class="portrait-frame portrait-frame-right">
+            <img src="assets/groom.jpg" alt="Groom portrait" />
+          </div>
+          <h3>Suraj</h3>
+          <p class="portrait-title">The Groom</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section id="story" class="section">
+    <div class="container story-layout">
+      <div class="section-heading align-left" data-aos="fade-up">
+        <p class="section-kicker">Our Story</p>
+        <h2 class="story-heading">वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ। <br>
+          निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥</h2>
+      </div>
+
+      <div class="story-card" data-aos="fade-up" data-aos-delay="100">
+        <p><b>
+          इस पावन एवं शुभ अवसर पर आप सपरिवार पधारकर वर-वधू को अपना स्नेह, आशीर्वाद एवं शुभकामनाएँ प्रदान करें।</b>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Countdown -->
+  <section id="countdown" class="section section-soft">
+    <div class="container">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="section-kicker">Countdown</p>
+        <h2>The big day is almost here</h2>
+      </div>
+
+      <div class="countdown-grid" data-aos="zoom-in">
+        <div class="time-card"><span id="days">00</span><small>Days</small></div>
+        <div class="time-card"><span id="hours">00</span><small>Hours</small></div>
+        <div class="time-card"><span id="minutes">00</span><small>Minutes</small></div>
+        <div class="time-card"><span id="seconds">00</span><small>Seconds</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events" class="section">
+    <div class="container">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="section-kicker">Wedding Celebrations</p>
+        <h2>Moments filled with joy and tradition</h2>
+      </div>
+
+      <div class="event-timeline">
+        <article class="event-card" data-aos="fade-up">
+          <div class="event-top">
+            <span class="event-day">19 Nov 2026</span>
+            <span class="event-icon">🌿</span>
+          </div>
+          <h3>Mehandi</h3>
+          <p>Intricate designs, music, and a beautiful festive evening.</p>
+        </article>
+
+        <article class="event-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="event-top">
+            <span class="event-day">20 Nov 2026</span>
+            <span class="event-icon">🎶</span>
+          </div>
+          <h3>Sangeet</h3>
+          <p>A night of dance, fun, and unforgettable family performances.</p>
+        </article>
+        
+        <article class="event-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="event-top">
+            <span class="event-day">21 Nov 2026</span>
+            <span class="event-icon">💛 💍</span>
+          </div>
+          <h3>Haldi & Wedding</h3>
+          <p>A bright and joyful start with color, laughter, and blessings.The sacred ceremony where two lives begin as one.</p>
+        </article>
+
+        <!-- <article class="event-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="event-top">
+            <span class="event-day">21 Nov 2026</span>
+            <span class="event-icon">💍</span>
+          </div>
+          <h3>Wedding</h3>
+          <p>The sacred ceremony where two lives begin as one.</p>
+        </article> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="section section-soft">
+    <div class="container">
+      <div class="section-heading" data-aos="fade-up">
+        <p class="section-kicker">Gallery</p>
+        <h2>Swipe through a few memories</h2>
+      </div>
+
+      <div class="gallery-shell" data-aos="zoom-in">
+        <button class="gallery-nav prev" type="button" aria-label="Previous image">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="gallery-stage">
+          <img id="slide-image" src="assets/gallery/1.jpg" alt="Wedding gallery image" />
+          <!-- <div class="gallery-caption">
+            <p id="slide-title">Golden Florals</p>
+            <small id="slide-text">Soft romantic framing</small>
+          </div> -->
+        </div>
+
+        <button class="gallery-nav next" type="button" aria-label="Next image">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="dots" aria-label="Gallery navigation"></div>
+    </div>
+  </section>
+
+  <!-- Venue -->
+  <section id="venue" class="section">
+    <div class="container venue-grid">
+      <div class="venue-copy" data-aos="fade-right">
+        <p class="section-kicker">Venue</p>
+        <h2>JP Palace, Gorakhpur</h2>
+        <p>
+          J P Palace, 56B, RailVihar Ph-2 Colony, Raptinagar Phase -4, 
+          Gorakhpur, Uttar Pradesh 273013
+        </p>
+        <div class="venue-actions">
+          <a href="https://maps.app.goo.gl/p7C3wQLDnQ3ADHNv9" target="_blank" rel="noreferrer" class="btn btn-primary">Open in Maps</a>
+          <button class="btn btn-ghost" type="button">Copy address</button>
+        </div>
+      </div>
+
+      <div class="venue-map" data-aos="fade-left">
+        <div class="map-card">
+          <span class="map-pin"><i class="fa-solid fa-location-dot"></i></span>
+          <h3>Wedding Venue</h3>
+          <p>Beautiful celebration space with easy guest access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" class="section section-soft">
+    <div class="container rsvp-layout">
+      <div class="section-heading align-left" data-aos="fade-up">
+        <p class="section-kicker">RSVP</p>
+        <h2>Let us know you’re coming</h2>
+      </div>
+
+      <form class="rsvp-card" id="rsvpForm" data-aos="fade-up" data-aos-delay="100">
+        <div class="form-grid">
+          <label>
+            <span>Your Name</span>
+            <input id="name" type="text" placeholder="Enter your name" />
+          </label>
+          <label>
+            <span>Phone Number</span>
+            <input id="phone" type="tel" placeholder="Enter your phone number" />
+          </label>
+          <label>
+            <span>Guests</span>
+            <input id="guests" type="number" placeholder="1" min="1" />
+          </label>
+          <label>
+            <span>Attendance</span>
+            <select id="attendance">
+              <option>Yes, I will attend</option>
+              <option>Sorry, I cannot attend</option>
+            </select>
+          </label>
+        </div>
+        <label class="full-width">
+          <span>Message</span>
+          <textarea id="message" rows="4" placeholder="Leave a sweet message..."></textarea>
+        </label>
+        <button class="btn btn-primary submit-btn" type="button">Send RSVP</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>We can't wait to celebrate with you ❤️</p>
+      <small>Designed with love for Harshita & Suraj</small>
+    </div>
+  </footer>
+
+  <!-- Background music -->
+  <audio id="music" loop preload="auto">
+    <source src="assets/music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
