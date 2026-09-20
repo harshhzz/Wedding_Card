@@ -29,27 +29,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const slides = [
     {
-      src: 'assets/gallery/1.jpg',
+      src: 'https://drive.google.com/thumbnail?id=1r2qTrvxfncyZjE004eZM2NWscvn0kfF-&sz=w1000',
       title: 'Golden Florals',
       text: 'Soft romantic framing',
     },
     {
-      src: 'assets/gallery/2.jpg',
+      src: 'https://drive.google.com/thumbnail?id=1zDKrKu5yOixGsQTa839ccx5PSd8Fs0Sy&sz=w1000',
       title: 'Mandap Glow',
       text: 'Warm ceremonial light',
     },
     {
-      src: 'assets/gallery/3.jpg',
+      src: 'https://drive.google.com/thumbnail?id=1_ThA4h44ZFOMZc9weNg1z7CKFcqhcDHN&sz=w1000',
       title: 'Couple Silhouette',
       text: 'Elegant evening moment',
     },
     {
-      src: 'assets/gallery/4.jpg',
+      src: 'https://drive.google.com/thumbnail?id=1Ba5KnnJbQtlaiUUt_4ogNmM51I_A4BsF&sz=w1000',
       title: 'Family Blessings',
       text: 'Love from everyone',
     },
     {
-      src: 'assets/gallery/5.jpg',
+      src: 'https://drive.google.com/thumbnail?id=1pFO_i2LkfdKkDq_cQDXvttNgntJ-ntXH&sz=w1000',
       title: 'Celebration Lights',
       text: 'Joyful night memories',
     },
