@@ -302,13 +302,24 @@ if (submitBtn) {
   submitBtn.addEventListener("click", async (e) => {
     e.preventDefault();;
 
-    const data = {
-      name: document.querySelector("#name").value,
-      phone: document.querySelector("#phone").value,
-      guests: document.querySelector("#guests").value,
-      attendance: document.querySelector("#attendance").value,
-      message: document.querySelector("#message").value
-    };
+    const nameInput = document.querySelector("#name");
+
+      if (!nameInput.value.trim()) {
+          nameInput.setCustomValidity("Please enter your name.");
+          nameInput.reportValidity();
+          nameInput.focus();
+          return;
+      }
+
+      nameInput.setCustomValidity("");
+      
+      const data = {
+          name: nameInput.value.trim(),
+          phone: document.querySelector("#phone").value,
+          guests: document.querySelector("#guests").value,
+          attendance: document.querySelector("#attendance").value,
+          message: document.querySelector("#message").value
+      };
 
     try {
       submitBtn.disabled = true;
